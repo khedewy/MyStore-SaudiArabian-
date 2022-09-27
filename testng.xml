@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <parameter name="browser" value="firefox" />
+    <test name="Regression Test" preserve-order="false">
+        <classes>
+            <class name="tests.GamingTest" />
+            <class name="tests.AddToCartTest" />
+            <class name="tests.DevicesTest" />
+            <class name="tests.BusinessProductTest" />
+            <class name="tests.AccessoriesTest" />
+            <class name="tests.NotifyMeTest" />
+            <class name="tests.LogTest" />
+            <class name="tests.HelpTest" />
+            <class name="tests.UpdateCartTest" />
+            <class name="tests.StoreAndGaminGCaardTest" />
+            <class name="tests.SearchTest" />
+        </classes>
+    </test>
+</suite>
